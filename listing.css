@@ -1,74 +1,84 @@
-body{
-    margin:auto
+body {
+    margin: auto
 }
-a{
+
+a {
     text-decoration: none;
 }
+
 /*Header Css*/
-header{
-    height:60px;
-    color:#fff;
+header {
+    height: 60px;
+    color: #fff;
     /* border:2px solid red; */
-    background-color:#3b2632
+    background-color: #3b2632
 }
-#brand{
-    float:left;
+
+#brand {
+    float: left;
     margin-left: 2%;
-    font-size:35px;
-    
+    font-size: 35px;
+
 }
-#brand >a{
+
+#brand>a {
     color: white !important
 }
-#social{
-    float:right;
+
+#social {
+    float: right;
     margin-right: 2%;
 }
-.socialLogo{
-    height:50px
+
+.socialLogo {
+    height: 50px
 }
 
 /**/
-#content{
-    width:80%;
+#content {
+    width: 80%;
     display: inline-block;
     margin-left: 10%;
-    margin-top:2%
+    margin-top: 2%
 }
 
-#filterDiv{
-    height:550px;
-    width:20%;
-    border:2px solid gray;
-    float:left;
+#filterDiv {
+    height: 550px;
+    width: 20%;
+    border: 2px solid gray;
+    float: left;
 }
-#contentDiv{
-    height:1000px;
-    width:75%;
-    margin-left:4%;
-    border:2px solid gray;
-    float:left;
+
+#contentDiv {
+    height: 1000px;
+    width: 74%;
+    margin-left: 4%;
+    border: 2px solid gray;
+    float: left;
 }
+
+
 
 
 /*Footer Css*/
-footer{
-    margin-top:5%;
-    height:120px;
+footer {
+    margin-top: 5%;
+    height: 120px;
     text-align: center;
-    background-color:#3b2632;
-    color:white
-    /* border:2px solid purple */
+    background-color: #3b2632;
+    color: white
+        /* border:2px solid purple */
 }
 
-.footDiv{
-    height:70px;
-    width:33%;
-    float:left;
-    border-right:2px solid white
+.footDiv {
+    height: 70px;
+    width: 33%;
+    float: left;
+    border-right: 2px solid white
 }
-.noborder{
-    border:none
+
+.noborder {
+    border: none
 }
 
 .content-shortlist {
@@ -153,6 +163,10 @@ footer{
     margin: 1%;
     background-color: #efefef;
     border-radius: 10px;
+}
+
+.Content-Ordernow-box button:hover {
+    transform: scale(1.1);
 }
 
 .content-ratingbox {
@@ -334,3 +348,123 @@ footer{
     width: 100%;
 }
 
+@media screen and (max-width:1000px) {
+    .Content-Ordernow-box button {
+        padding: 2px;
+        font-size: medium;
+        height: 30px;
+    }
+    
+    .Content-Ordernow-box {
+    width: 25%;
+    }
+    
+    .Content-Ordernow-pointer {
+        width: 14px;
+        height: 12px;
+    }
+
+    .content-box-Details {
+        width: 43%;
+        height: 100%;
+        margin-left: 2%;
+    }
+
+    .rating-star img {
+        margin-top: -15px;
+        width: 14px;
+        height: 14px;
+        float: left;
+        margin-left: 6px;
+        border-radius: 3px;
+        padding: 1px;
+    }
+
+    .rating-star1 img {
+        margin-top: -15px;
+        width: 14px;
+        height: 14px;
+        float: left;
+        margin-left: 6px;
+        border-radius: 3px;
+        padding: 1px;
+    }
+    
+    .rating1 {
+        width: 22px;
+    }
+
+    .vote-count {
+        margin-top: -15px;
+    }
+
+}
+
+@media screen and (max-width:900px) {
+    .content-box-Details h2 {
+        margin-top: -1px;
+        font-size: larger;
+    }
+
+    .Content-Ordernow-box button {
+        padding: 2px;
+        font-size: small;
+        height: 25px;
+    }
+    
+    .Content-Ordernow-box {
+    width: 25%;
+    }
+    
+    .Content-Ordernow-pointer {
+        width: 13px;
+        height: 11px;
+    }
+
+    .content-box-Details {
+        width: 43%;
+        height: 100%;
+        margin-left: 2%;
+    }
+
+    .rating-star img {
+        margin-top: -15px;
+        width: 14px;
+        height: 14px;
+        float: left;
+        margin-left: 1px;
+        border-radius: 3px;
+        padding: 1px;
+    }
+
+    .rating-star1 img {
+        margin-top: -15px;
+        width: 14px;
+        height: 14px;
+        float: left;
+        margin-left: 1px;
+        border-radius: 3px;
+        padding: 1px;
+    }
+    
+    .rating1 {
+        width: 20px;
+    }
+
+    .rating1 span {
+        font-size: medium;
+    }
+
+    .vote-count {
+        margin-top: -16px;
+    }
+    
+    .vote-count span {
+        font-size: medium;
+        margin-left:4px;
+    }
+
+}
+
+@media screen and (max-width:700px) {
+}
